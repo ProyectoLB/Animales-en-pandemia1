@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ProyectoLB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Prueba.css">
+<style>
+  
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.titulo {
+  padding: 150px;
+  text-align: center;
+background-image: url("https://i.pinimg.com/originals/5c/e5/b3/5ce5b328e0513a591319e7cdc1451038.jpg");
+color: rgb(0, 0, 0);
+}
+img{border: 3px solid #d8d8d8;
+    border-radius: 5px;}
+.texto-img img{
+    float: left;
+    margin: 0 2px 10px 10px;
+    width: 300px;}
+    
+.texto-img2 img{
+    float: right;
+    margin: 0 2px 10px 10px;
+    width: 300px;}
+.titulo h1 {
+  font-size: 50px;}
+
+.subt p{
+  font-size: 25px;
+  color: #fafafa}
+.navegacion{
+  width: 1000px;
+  margin: 30px auto;
+  background: #333333;
+}
+.navegacion ul{
+  list-style: none;
+}
+.menu > li{
+position: relative;
+display: inline-block;
+}
+.menu >li>a{
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-family: arial;
+  text-decoration: none;
+}
+.menu li a:hover{
+  color: red;
+  transition: all 1s;
+}
+.submenu{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: arial;
+  text-decoration: none;
+}
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+.Principal {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.Principal h1{
+  text-align: center;
+}
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+body, html {
+  height: 100%;
+  margin: 2.5px;
+}
+</style>
+</head>
+<body>
+<div class="titulo">
+<h1><front size=10><script>
+    var text="Proyecto LB"
+    var speed=90
+    if (document.all||document.getElementById){
+    document.write('<span id="highlight">' + text + '</span>')
+    var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+    }
+    else
+    document.write(text)
+    var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+    var r=1
+    var g=1
+    var b=1
+    var seq=1
+    function changetext(){
+    rainbow="#"+hex[r]+hex[g]+hex[b]
+    storetext.style.color=rainbow
+    }
+    function change(){
+    if (seq==6){
+    b--
+    if (b==0)
+    seq=1
+    }
+    if (seq==5){
+    r++
+    if (r==12)
+    seq=6
+    }
+    if (seq==4){
+    g--
+    if (g==0)
+    seq=5
+    }
+    if (seq==3){
+    b++
+    if (b==12)
+    seq=4
+    }
+    if (seq==2){
+    r--
+    if (r==0)
+    seq=3
+    }
+    if (seq==1){
+    g++
+    if (g==12)
+    seq=2
+    }
+    changetext()
+    }
+    function starteffect(){
+    if (document.all||document.getElementById)
+    flash=setInterval("change()",speed)
+    }
+    starteffect()
+    </script></front></h1>
+    <div class="subt"><p>Por: Sofia Alvarez, Adrián González, Manuela Martinez, Salomé Rojas, Mariana Zárate </p></div>
+  </div>
+  <header>
+    <nav class="navegacion">
+      <ul class="menu">
+        <li><a href="">Inicio</a></li>
+<li><a href="">Proyecto</a>
+<ul class="submenu">
+  <li><a href="Wildlife Trade.html">Wildlife Trade</a></li>
+  <li><a href="Maltrato animal.html">Maltrato animal</a></li>
+  <li><a href="Animales marinos en  la pandemia.html">Animales marinos</a></li>
+  <li><a href="Animales en las calles.html">Animales en las calles</a></li>
+  <li><a href="Beneficios que han tenido los animales.html">Beneficios que han tenido los animales</a></li>
+  <li><a href="Afectaciones en animales por la pandemia.html">Afectaciones en animales por la pandemia</a></li>
+</ul>
+</li>
+<li><a href="">Nosotros</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="Principal">
+    <h1>Animales en Pandemia</h1>
+    <div class="texto-img"><img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/NYUTVYIYZ5FZNLUI643CTBXWGQ.jpg" style="height:200px;width: 300px"/>
+      <p class="parrafo">ejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo  
+        ejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo
+      </p> 
+      
+      <p class="parrafo">ejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemplo
+        ejemplo ejemplo ejemplo ejemplo ejemplo</p>
+        <p>ejemplo ejemplo ejemplo ejemplo ejemploejemplo 
+          ejemplo ejemplo ejemplo ejemploejemplo ejemplo ejemplo ejemplo ejemplo
+
+        </p>
+      </div>
+        
+        <div class="texto-img2"><img src="https://lexlatin.com/portal/sites/default/files/2019-09/canva-photo-editor_5_animal.png" style="height:500px;width: 500px"float= "left"hspace="50"vspace= "50"/>
+          <p class="parrafo">ejemplo ejemplo ejemplo ejemplo ejemplo  
+          </p> 
+       
+</div>
+</body>
+</html>

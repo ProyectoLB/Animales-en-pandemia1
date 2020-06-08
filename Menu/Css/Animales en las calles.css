@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+        .titulo {
+          padding: 80px;
+          text-align: center;
+        background-image: url("https://www.nationalgeographic.com.es/medio/2020/03/22/un-zorro-pasea-tranquilamente-por-londres_6e5186a3_1280x881.jpg");
+          color: rgb(0, 0, 0);
+        }
+        
+        .titulo h1 {
+          font-size: 50px;
+        }
+        .subt p{
+          font-size: 25px;
+          color: rgb(0, 0, 0);
+        }
+        .navegacion{
+          width: 1000px;
+          margin: 30px auto;
+          background: #333333;
+        }
+        .navegacion ul{
+          list-style: none;
+        }
+        .menu > li{
+        position: relative;
+        display: inline-block;
+        }
+        .menu >li>a{
+          display: block;
+          padding: 15px 20px;
+          color: #ffffff;
+          font-family: arial;
+          text-decoration: none;
+        }
+        .menu li a:hover{
+    color: red;
+    transition: all 1s;
+  }
+        body, html {
+    height: 100%;
+    margin: 2.5%;
+  }
+        .submenu{
+          position: absolute;
+          background: #333333;
+          width: 120%;
+          visibility: hidden;
+          opacity: 0;
+          transition: opacity 1.5s;
+        }
+        .submenu li a{
+          display: block;
+          padding: 15px;
+          color: #fff;
+          font-family: arial;
+          text-decoration: none;
+        }
+        .menu li:hover .submenu{
+          visibility: visible;
+          opacity: 1;
+        }
+        
+        .Principal {   
+          -ms-flex: 70%; 
+          flex: 70%;
+          background-color: white;
+          padding: 20px;
+        }
+        .Principal h1{
+          text-align: center;
+        }
+        .info h1{text-align:center;color: #9FD5D1;}
+        .info p{size: 20px;}

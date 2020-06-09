@@ -1,25 +1,61 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-  }
-        .titulo {
-          padding: 80px;
-          text-align: center;
-        background-image: url("https://www.nationalgeographic.com.es/medio/2020/03/22/un-zorro-pasea-tranquilamente-por-londres_6e5186a3_1280x881.jpg");
-          color: rgb(0, 0, 0);
-        }
-        
-        .titulo h1 {
-          font-size: 50px;
-        }
-        .subt p{
-          font-size: 25px;
-          color: rgb(0, 0, 0);
-        }
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 490px;
+  position: relative;
+  margin: auto;
+  height: 400px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
         .navegacion{
           width: 1000px;
           margin: 30px auto;

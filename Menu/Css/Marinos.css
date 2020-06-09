@@ -75,7 +75,7 @@
           height: 100%;
          
         }
-        .io{margin: 2cm;} 
+        .io{margin: 2cm; text-align: justify;} 
         .info h1{text-align:center;color: #9FD5D1;}
         .info p{size: 20px;}
         .info h1{text-align:center;color: #9FD5D1;

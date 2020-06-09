@@ -72,9 +72,10 @@
           text-align: center;
         }
         body, html {
-    height: 100%;
-    margin: 2.5%;
-  }
+          height: 100%;
+         
+        }
+        .io{margin: 2cm;} 
         .info h1{text-align:center;color: #9FD5D1;}
         .info p{size: 20px;}
         .info h1{text-align:center;color: #9FD5D1;

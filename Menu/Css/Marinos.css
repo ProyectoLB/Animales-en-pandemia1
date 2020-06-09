@@ -76,20 +76,18 @@
          
         }
         .io{margin: 2cm; text-align: justify;} 
-        .info h1{text-align:center;color: #9FD5D1;}
-        .info p{size: 20px;}
         .info h1{text-align:center;color: #9FD5D1;
         size: 60px;}
-        .info p{size: 60px;}
-        .info h2{size: 60px;}
-        .info h3{size: 60px;}
-        .info h4{size: 50px;}
-        .info h5{size: 40px;}
-        .info h6{size: 30px;}
-        .parrafo {
-      margin-bottom: 13px;
-      font-weight: 300;
-      text-align: justify;
-      line-height: 24px;
-      color: rgb(24, 16, 16);
-  }
+
+        .texto-img img{
+          float: left;
+          margin: 0 2px 10px 10px;
+          width: 300px;}
+          
+      .texto-img2 img{
+          float: right;
+          margin: 0 2px 10px 10px;
+          width: 300px;}
+      img{border: 5px solid #ffffff;
+          border-radius: 5px;}
+      

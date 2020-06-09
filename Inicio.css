@@ -117,3 +117,5 @@ body, html {
   height: 100%;
 }
 .io{margin: 2cm;} 
+@media screen and (max-whidth:auto) {
+}

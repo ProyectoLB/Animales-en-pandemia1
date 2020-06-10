@@ -28,10 +28,6 @@
         .navegacion ul{
           list-style: none;
         }
-        .texto-img img{
-      float: left;
-      margin: 0 2px 10px 10px;
-      width: 300px;}
         .menu > li{
         position: relative;
         display: inline-block;
@@ -43,18 +39,24 @@
           font-family: arial;
           text-decoration: none;
         }
+        .menu  ul li ul li{
+          display: block;
+        }
+        .menu ul li.submenu::before{
+          content: 'f107';
+          position: absolute;
+          font-family: fontAwesome;
+          line-height: 50px;
+          color: #fff;
+          right: 5px;
+        }
+        .menu  ul li:hover ul{
+          display: block;
+        }
         .menu li a:hover{
-    color: red;
-    transition: all 1s;
-  }
-  body, html {
-    height: 100%;
-   
-  }
-  .io{margin: 2cm;text-align: justify;} 
-  .centro{
-    text-align: center;
-  }
+          color: red;
+          transition: all 1s;
+        }
         .submenu{
           position: absolute;
           background: #333333;
@@ -74,7 +76,14 @@
           visibility: visible;
           opacity: 1;
         }
-        
+  body, html {
+    height: 100%;
+   
+  }
+  .io{margin: 2cm;text-align: justify;} 
+  .centro{
+    text-align: center;
+  }
         .Principal {   
           -ms-flex: 70%; 
           flex: 70%;

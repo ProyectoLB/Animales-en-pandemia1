@@ -53,48 +53,62 @@ img{border: 3px solid #d8d8d8;
     color: transparent;
     text-align: center;
   }
-.navegacion{
-  width: 1000px;
-  margin: 30px auto;
-  background: #333333;
-}
-.navegacion ul{
-  list-style: none;
-}
-.menu > li{
-position: relative;
-display: inline-block;
-}
-.menu >li>a{
-  display: block;
-  padding: 15px 20px;
-  color: #ffffff;
-  font-family: arial;
-  text-decoration: none;
-}
-.menu li a:hover{
-  color: red;
-  transition: all 1s;
-}
-.submenu{
-  position: absolute;
-  background: #333333;
-  width: 120%;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 1.5s;
-}
-.submenu li a{
-  display: block;
-  padding: 15px;
-  color: #fff;
-  font-family: arial;
-  text-decoration: none;
-}
-.menu li:hover .submenu{
-  visibility: visible;
-  opacity: 1;
-}
+  .navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #333333;
+  }
+  .navegacion ul{
+    list-style: none;
+  }
+  .menu > li{
+  position: relative;
+  display: inline-block;
+  }
+  .menu >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: arial;
+    text-decoration: none;
+  }
+  .menu  ul li ul li{
+    display: block;
+  }
+  .menu ul li.submenu::before{
+    content: 'f107';
+    position: absolute;
+    font-family: fontAwesome;
+    line-height: 50px;
+    color: #fff;
+    right: 5px;
+  }
+  .menu  ul li:hover ul{
+    display: block;
+  }
+  .menu li a:hover{
+    color: red;
+    transition: all 1s;
+  }
+  .submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: arial;
+    text-decoration: none;
+  }
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
 
 .Principal {   
   -ms-flex: 70%; 

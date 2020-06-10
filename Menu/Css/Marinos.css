@@ -41,10 +41,24 @@
           font-family: arial;
           text-decoration: none;
         }
+        .menu  ul li ul li{
+          display: block;
+        }
+        .menu ul li.submenu::before{
+          content: 'f107';
+          position: absolute;
+          font-family: fontAwesome;
+          line-height: 50px;
+          color: #fff;
+          right: 5px;
+        }
+        .menu  ul li:hover ul{
+          display: block;
+        }
         .menu li a:hover{
-    color: red;
-    transition: all 1s;
-  }
+          color: red;
+          transition: all 1s;
+        }
         .submenu{
           position: absolute;
           background: #333333;

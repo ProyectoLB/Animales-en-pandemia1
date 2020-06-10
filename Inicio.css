@@ -75,6 +75,14 @@ display: inline-block;
 .menu  ul li ul li{
   display: block;
 }
+.menu ul li.submenu::before{
+  content: 'f107';
+  position: absolute;
+  font-family: fontAwesome;
+  line-height: 50px;
+  color: #fff;
+  right: 5px;
+}
 .menu  ul li:hover ul{
   display: block;
 }

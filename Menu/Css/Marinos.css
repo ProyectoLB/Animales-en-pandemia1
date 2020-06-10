@@ -78,7 +78,8 @@
           height: 100%;
          
         }
-        .io{margin: 2cm; text-align: justify;} 
+        .io{margin: 2cm; text-align: justify;
+          flex: 1;min-width: 250px;} 
         .info h1{text-align:center;color: #9FD5D1;
         size: 60px;}
 
@@ -115,6 +116,7 @@
           .column {
             float: left;
             width: 25%;
+            flex: 1;min-width: 250px;
           }
 
           .row:after {

@@ -5,6 +5,9 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
   }
+  body{
+    background-color: #fff;padding: 20px;font-family: Arial;
+  }
         .titulo {
           padding: 80px;
           text-align: center;
@@ -90,4 +93,51 @@
           width: 300px;}
       img{border: 5px solid #ffffff;
           border-radius: 5px;}
-      
+          .main {
+            max-width: 1000px;
+            margin: auto;
+          }
+          
+          h1 {
+            font-size: 50px;
+            word-break: break-all;
+          }
+          
+          .row {
+            margin: 8px -16px;
+          }
+          
+          .row,
+          .row > .column {
+            padding: 8px;
+          }
+          
+          .column {
+            float: left;
+            width: 25%;
+          }
+
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+
+          .content {
+            background-color: white;
+            padding: 10px;
+          }
+          
+          
+          @media screen and (max-width: 900px) {
+            .column {
+              width: 50%;
+            }
+          }
+          
+          @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+            }
+          }

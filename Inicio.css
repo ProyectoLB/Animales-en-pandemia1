@@ -72,6 +72,12 @@ display: inline-block;
   font-family: arial;
   text-decoration: none;
 }
+.menu  ul li ul li{
+  display: block;
+}
+.menu  ul li:hover ul{
+  display: block;
+}
 .menu li a:hover{
   color: red;
   transition: all 1s;

@@ -23,7 +23,7 @@
           color: rgb(0, 0, 0);
         }
         .navegacion{
-          width: 1000px;
+          width: 1100px;
           margin: 30px auto;
           background: #333333;
         }
@@ -94,6 +94,8 @@
         }
         .io{margin: 2cm; text-align: justify;
           flex: 1;min-width: 250px;} 
+          .io2{margin: 2cm; text-align: justify;
+            flex: 1;min-width: 250px;} 
         .info h1{text-align:center;color: #9FD5D1;
         size: 60px;}
 
@@ -129,8 +131,9 @@
           
           .column {
             float: left;
-            width: 25%;
+            width: 15%;
             flex: 1;min-width: 250px;
+
           }
 
           .row:after {

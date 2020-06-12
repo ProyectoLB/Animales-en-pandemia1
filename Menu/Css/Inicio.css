@@ -65,6 +65,12 @@ img{border: 3px solid #d8d8d8;
   position: relative;
   display: inline-block;
   }
+  .fuentes{float: right; 
+    margin-top: auto; 
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: arial;}
   .menu >li>a{
     display: block;
     padding: 15px 20px;

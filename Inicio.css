@@ -72,6 +72,13 @@ display: inline-block;
   font-family: arial;
   text-decoration: none;
 }
+.fuentes{float: right; 
+  margin-top: auto; 
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: arial;}
+
 .menu  ul li ul li{
   display: block;
 }

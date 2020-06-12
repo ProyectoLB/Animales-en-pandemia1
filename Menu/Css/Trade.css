@@ -16,7 +16,7 @@
           height: 100%;
          
         }
-        .io{margin: 100px;text-align: justify;} 
+        .io{margin: 2cm;text-align: justify;} 
         
         .titulo h1 {
           font-size: 50px;
@@ -25,6 +25,12 @@
           font-size: 25px;
           color: rgb(0, 0, 0);
         }
+        .fuentes{float: right; 
+          margin-top: auto; 
+          text-align: center;
+          text-decoration: none;
+          color: #ffffff;
+          font-family: arial;}
         .navegacion{
           width: 1150px;
           margin: 30px auto;

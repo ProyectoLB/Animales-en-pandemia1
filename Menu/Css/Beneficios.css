@@ -80,7 +80,12 @@
           visibility: visible;
           opacity: 1;
         }
-        
+        .fuentes{float: right; 
+          margin-top: auto; 
+          text-align: center;
+          text-decoration: none;
+          color: #ffffff;
+          font-family: arial;}
         .Principal {   
           -ms-flex: 70%; 
           flex: 70%;

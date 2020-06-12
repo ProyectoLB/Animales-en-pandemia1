@@ -34,7 +34,7 @@
       text-align: center;
     }
     .navegacion{
-      width: 1000px;
+      width: 1150px;
       margin: 30px auto;
       background: #333333;
     }
@@ -66,6 +66,12 @@
     .menu  ul li:hover ul{
       display: block;
     }
+    .fuentes{float: right; 
+        margin-top: auto; 
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: arial;}
     .menu li a:hover{
       color: red;
       transition: all 1s;
@@ -89,6 +95,12 @@
       visibility: visible;
       opacity: 1;
     }
+   
+      body, html {
+        height: 100%;
+       
+      }
+      .io{margin: 2cm;text-align: justify;} 
   .Principal {   
     -ms-flex: 70%; 
     flex: 70%;

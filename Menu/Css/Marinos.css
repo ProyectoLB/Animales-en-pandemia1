@@ -94,7 +94,7 @@
         }
         .io{margin: 2cm; text-align: justify;
           flex: 1;min-width: 250px;} 
-          .io2{margin: 2cm; text-align: justify;
+          .io2{margin: 100px; text-align: justify;
             flex: 1;min-width: 250px;} 
         .info h1{text-align:center;color: #9FD5D1;
         size: 60px;}
@@ -114,7 +114,12 @@
             max-width: 1000px;
             margin: auto;
           }
-          
+          .fuentes{float: right; 
+            margin-top: auto; 
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            font-family: arial;}
           h1 {
             font-size: 50px;
             word-break: break-all;

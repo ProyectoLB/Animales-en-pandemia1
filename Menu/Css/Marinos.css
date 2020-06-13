@@ -8,13 +8,6 @@
   body{
     background-color: #fff;padding: 20px;font-family: Arial;
   }
-        .titulo {
-          padding: 80px;
-          text-align: center;
-        background-image: url("https://www.nationalgeographic.com.es/medio/2020/03/22/un-zorro-pasea-tranquilamente-por-londres_6e5186a3_1280x881.jpg");
-          color: rgb(0, 0, 0);
-        }
-        
         .titulo h1 {
           font-size: 50px;
         }
@@ -94,8 +87,12 @@
         }
         .io{margin: 2cm; text-align: justify;
           flex: 1;min-width: 250px;} 
-          .io2{margin: 100px; text-align: justify;
+
+          .io2{margin: 2cx; text-align: justify;
             flex: 1;min-width: 250px;} 
+            .io3{margin: 100px; text-align: justify;
+            flex: 1;min-width: 250px;} 
+
         .info h1{text-align:center;color: #9FD5D1;
         size: 60px;}
 

@@ -13,10 +13,8 @@
           color: rgb(0, 0, 0);
         }
         body, html {
-          height: 100%;
-         
-        }
-        .io{margin: 2cm;text-align: justify;} 
+          height: 100%;}
+        .io{margin: 1cm;text-align: justify;} 
         
         .titulo h1 {
           font-size: 50px;
@@ -110,3 +108,101 @@
 
       img{border: 5px solid #ffffff;
           border-radius: 5px;}
+          .row {
+            display: -ms-flexbox; 
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+          .container{
+            position: relative;
+            max-width: auto;
+            height: auto;
+            padding: 50px;
+            color: #555555;
+          }
+          .container .content{
+            display: none;
+            margin-top: 20px;
+          }
+          .container .content.contentEnglish
+          {
+            display: block;}
+
+            .check{
+              position: relative;
+              width: 50px;
+            }
+            .check:before{
+              content: '';
+              position: absolute;
+              width: 50px;
+              height: 25px;
+              background: #333333;
+              border-radius: 25px;
+            }
+            .check:checked:before{
+              background: red;
+            }
+            .check:after{
+              content: '';
+              position: absolute;
+              width: 25px;
+              height: 25px;
+              background: #ffffff;
+              border-radius: 25px;
+              transition: 0.25s;
+              border: 2px solid #333333;
+              box-sizing: border-box;
+            }
+            .check:checked:after{
+              left: 25px;
+              border: 2px solid red;
+            }
+            .check:checked ~ .content.contentEnglish{
+              display: none;
+            }
+            .check:checked ~ .content.contentEspañol{
+              display: block;
+            }
+
+          .en{
+            color: #333333;
+            margin-top: 10px;
+          }
+          .es{
+            color: red;
+            margin-left: 10px;
+            margin-top: 10px; 
+          }
+          
+          .column {
+            float: left;
+            width: auto;
+            padding: 10px;
+            flex: 1;min-width: 250px;}
+          
+          
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+          }
+          
+          
+          @media screen and (max-width: 800px) {
+            .column {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+          }
+          
+          @media screen and (max-width: 600px) {
+            .column {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+            }
+          }

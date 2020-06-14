@@ -97,6 +97,7 @@
         }
         .info h1{text-align:center;color: #9FD5D1;}
         .info p{size: 20px;}
+        a{text-decoration: none;}
         
         .texto-img img{
           float: left;

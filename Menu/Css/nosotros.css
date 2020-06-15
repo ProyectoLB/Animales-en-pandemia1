@@ -11,17 +11,9 @@
   background-image: url("https://www.hdwallpapers.in/download/sumatran_tiger-1920x1080.jpg");
   color: rgb(0, 0, 0);
   }
-  img{border: 3px solid #d8d8d8;
+  img{border: 3px solid #ffffff;
       border-radius: 5px;}
-  .texto-img img{
-      float: left;
-      margin: 0 2px 10px 10px;
-      width: 300px;}
-      
-  .texto-img2 img{
-      float: right;
-      margin: 0 2px 10px 10px;
-      width: 300px;}
+
   .titulo h1 {
     font-size: 50px;}
   
@@ -122,3 +114,8 @@
    
   }
   .io{margin: 2cm;text-align: justify;} 
+  
+  .texto-img2 img{
+    float: right;
+    margin: 0 2px 10px 10px;
+    width: 300px;}
